@@ -18,7 +18,7 @@ def mostrar_usuarios():
 # Función para realizar el inicio de sesión
 def iniciar_sesion(usuario, contraseña):
     if usuario in usuarios and usuarios[usuario] == contraseña:
-        print("Inicio de sesión exitoso.")
+        print("Inicio de sesión exitoso.",usuario)
     else:
         print("Credenciales incorrectas.")
 
@@ -49,4 +49,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
